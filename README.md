@@ -6,7 +6,7 @@ This is a simple Windows UI in JavaScript.
 
 Here is a sample code:
 
-```
+```Javascript
 $(document).ready(function(){
 	window_init();
 
