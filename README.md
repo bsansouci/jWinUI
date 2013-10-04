@@ -6,7 +6,8 @@ This is a simple Windows UI in JavaScript.
 
 How do you use it you might ask? Well it's pretty simple:
 
-- Create a window in the body of the page:
+Create a window in the body of the page:
+
 ```Javascript
 var width = 640, height = 480;
 var place = document.body;
