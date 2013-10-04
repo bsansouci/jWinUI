@@ -1,12 +1,12 @@
 jWinUI --- Version 0.3
 
 This is a simple Windows UI in JavaScript.
-----------------------------------------------------------------------------------------
+----
 
 How do you use it you might ask? Well it's pretty simple:
 
 Create a window:
---------
+----
 
 ```Javascript
 var width = 640, height = 480;
@@ -28,7 +28,7 @@ var win = Window(width, height, place, title, url, x, y, window);
 
 
 Create an WinIcon:
-----------------------------------------------------------------------------------------
+----
 
 ```Javascript
 var x = 50, y = 50;
@@ -40,9 +40,8 @@ var url_pic_clicked = "my_image_clicked.png";
 var icon = WinIcon(x, y, title, data, url_pic_unclicked, url_pic_clicked);
 ```
 
-----------------------------------------------------------------------------------------
-
 Here's an example: 
+----
 
 ```Javascript
 $(document).ready(function(){
