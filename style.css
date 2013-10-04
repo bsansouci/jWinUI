@@ -1,5 +1,6 @@
 body {
 	overflow: hidden;
+	font-family: 'Roboto Slab', serif;
 }
 
 .window {
@@ -53,6 +54,8 @@ body {
 .icon-hover {
 	cursor: pointer;
 	background-color: #9BE4F3;
+	border-radius: 4px 4px 4px 4px;
+	padding: 5px 5px 5px 5px;
 }
 #task-bar {
 	position: absolute;
