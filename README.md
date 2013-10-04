@@ -17,11 +17,11 @@ var url = "aPage.html";
 var win = Window(width, height, place, title, url);
 ```
 
-Width => width in px of the Window
-Height => height in px of the Window
-place => the dom element into which you want your Window to be rendered
-title => the title that will appear on the Window
-url => the url of the local html file that you want to load inside this new Window
+- Width => width in px of the Window
+- Height => height in px of the Window
+- place => the dom element into which you want your Window to be rendered
+- title => the title that will appear on the Window
+- url => the url of the local html file that you want to load inside this new Window
 
 ```Javascript
 $(document).ready(function(){
