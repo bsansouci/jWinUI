@@ -17,7 +17,7 @@ body {
 	user-select: none;
 	
 }
-.window_bar {
+.window-bar {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -26,10 +26,10 @@ body {
 	cursor: pointer;
 }
 
-.task_bar_button:hover {
+.task-bar-button:hover {
 	background-color: #9BE4F3;
 }
-.task_bar_button {
+.task-bar-button {
 	cursor: pointer; 
 	position: relative; 
 	top: 5px; 
@@ -41,7 +41,7 @@ body {
 	border: 1px solid black; 
 	padding: 4px;
 }
-.window_corner {
+.window-corner {
 	position: absolute;
 	background-color:#54C1F0;
 
@@ -50,11 +50,11 @@ body {
 	width: 10px;
 	cursor: pointer;
 }
-.icon_hover {
+.icon-hover {
 	cursor: pointer;
 	background-color: #9BE4F3;
 }
-#task_bar {
+#task-bar {
 	position: absolute;
 	background-color: #8AD3F2;
 	z-index: 100;
