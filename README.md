@@ -23,6 +23,10 @@ var win = Window(width, height, place, title, url);
 - title => the title that will appear on the Window
 - url => the url of the local html file that you want to load inside this new Window
 
+---------------------------------------------
+
+Here's an example: 
+
 ```Javascript
 $(document).ready(function(){
 	window_init();
