@@ -45,7 +45,6 @@ Here's an example:
 
 ```Javascript
 $(document).ready(function(){
-	~~window_init();~~
 	var window1 = Window(640, 480, document.body, "TEST", "a_page.html");
 	var iconWindow2 = WinIcon(50, 50, "Title", "url.html", "myIconNotClicked.jpg", "myIconClicked.jpg");
 
