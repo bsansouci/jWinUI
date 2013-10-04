@@ -15,7 +15,7 @@ var title = "I am a title";
 var url = "aPage.html";
 var x = 50, y = 50;
 
-var win = Window(width, height, place, title, url, x, y);
+var win = Window(width, height, place, title, url, x, y, window);
 ```
 
 - Width => width in px of the Window
@@ -24,7 +24,7 @@ var win = Window(width, height, place, title, url, x, y);
 - title => the title that will appear on the Window
 - url => the url of the local html file that you want to load inside this new Window
 - x and y => the x and y positions of the window
-
+- window => you can give it a window, and it won't create a new one but just open one
 ----------------------------------------------------------------------------------------
 
 function 
@@ -47,8 +47,11 @@ Here's an example:
 
 ```Javascript
 $(document).ready(function(){
-	window_init();
-	var win = Window(640, 480, document.body, "TEST", "a_page.html");
-	var icon = WinIcon(50, 50, "Title", "url.html", "myIconNotClicked.jpg", "myIconClicked.jpg");
+	~~window_init();~~
+	var window1 = Window(640, 480, document.body, "TEST", "a_page.html");
+	var iconWindow2 = WinIcon(50, 50, "Title", "url.html", "myIconNotClicked.jpg", "myIconClicked.jpg");
+
+	// You can feed in your own window at the end, it will use it instead of creating a new one
+	var iconWindow1 =  WinIcon(50, 50, "Title", "", "myIconNotClicked.jpg", "myIconClicked.jpg", window1);
 });
 ```
