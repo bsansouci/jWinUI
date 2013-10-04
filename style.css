@@ -1,0 +1,70 @@
+body {
+	overflow: hidden;
+}
+
+.window {
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #CBE7F2;
+	overflow: hidden;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+.window_bar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #8AD3F2;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+}
+
+.task_bar_button:hover {
+	background-color: #9BE4F3;
+}
+.task_bar_button {
+	cursor: pointer; 
+	position: relative; 
+	top: 5px; 
+	left: 5px; 
+	height: 30px; 
+	background-color: #54C1F0; 
+	margin-left: 10px; 
+	font-size: 26px; 
+	border: 1px solid black; 
+	padding: 4px;
+}
+.window_corner {
+	position: absolute;
+	background-color:#54C1F0;
+
+	border-radius: 0px 0px 10px 0px;
+	height: 10px;
+	width: 10px;
+	cursor: pointer;
+}
+.icon_hover {
+	cursor: pointer;
+	background-color: #9BE4F3;
+}
+#task_bar {
+	position: absolute;
+	background-color: #8AD3F2;
+	z-index: 100;
+	left: 0px;
+	height: 40px;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
