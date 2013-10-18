@@ -16,7 +16,7 @@ var url = "aPage.html";
 var x = 100, y = 60;
 
 var win = Window(url, title, x, y, width, height, place);
-/* this is the equivalent of var win ) Window(url, title) because all the rest are default values */
+/* this is the equivalent of var win = Window(url, title) because all the rest are default values */
 ```
 
 - Width => width in px of the Window
