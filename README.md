@@ -15,8 +15,8 @@ var title = "I am a title";
 var url = "aPage.html";
 var x = 100, y = 60;
 
-var win = Window(url, title, x, y, width, height, place);
-/* this is the equivalent of var win = Window(url, title) because all the rest are default values */
+var win = Please.createWindow(url, title, x, y, width, height, place);
+/* this is the equivalent of var win = Please.createWindow(url, title) because all the rest are default values */
 ```
 
 - Width => width in px of the Window
@@ -26,7 +26,7 @@ var win = Window(url, title, x, y, width, height, place);
 - url => the url of the local html file that you want to load inside this new Window
 - x and y => the x and y positions of the window
 
-Create an WinIcon:
+Create an WinIcon (not inside Please yet):
 ----
 
 ```Javascript
@@ -52,8 +52,8 @@ Here's an example:
 
 ```Javascript
 $(document).ready(function(){
-	var window1 = Window("test.html", "Window1", 50, 50);
-	var window2 = Window("test2.html", "Window2", 50, 200);
+	var window1 = Please.createWindow("test.html", "Window1", 50, 50);
+	var window2 = Please.createWindow("test2.html", "Window2", 50, 200);
 
 	var icon = WinIcon(window1, "./img/folder_icon.png", "./img/folder_icon_clicked.png", 50, 50);
 	var icon2 = WinIcon(window2, "./img/folder_icon.png", "./img/folder_icon_clicked.png", 150, 50);
